@@ -1,10 +1,10 @@
 # Article: Effects of Data Aggregation(Buffer-Techniques)with Emerging Data on Bicycle Volume Estimation
 
 ## Authors 
-Md Mintu Miah1, 
-Stephen P Mattingly2, 
-Kate Kyung Hyun3, 
-Joseph Broach4
+#Md Mintu Miah1, 
+#Stephen P Mattingly2, 
+#Kate Kyung Hyun3, 
+#Joseph Broach4
 
 1 Doctoral Research Assistant, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Corresponding Email: mdmintu.miah@mavs.uta.edu, ORCID: 0000-0001-6073-3896
 
