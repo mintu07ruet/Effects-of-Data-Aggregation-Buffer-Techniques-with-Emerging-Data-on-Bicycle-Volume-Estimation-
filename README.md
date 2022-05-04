@@ -24,6 +24,7 @@ Keywords: Strava, StreetLight, Bicycle, Buffer, Euclidian, Network, AADBT, Direc
 
 ### Requirements
 To install requirements: It is best to create an Anaconda environment and execute the following command:/
+```bash
 pip install -r requirements.txt
-
+```
 The data is available in 'data/'
