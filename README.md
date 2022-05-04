@@ -22,3 +22,8 @@ Keywords: Strava, StreetLight, Bicycle, Buffer, Euclidian, Network, AADBT, Direc
 ### Graphical Abstract:
 ![image](https://user-images.githubusercontent.com/60245323/166619115-ee0a5efd-570a-40ed-9645-35c39a72ddd5.png)
 
+### Requirements
+To install requirements: It is best to create an Anaconda environment and execute the following command:
+pip install -r requirements.txt
+
+The data is available in 'data/'
