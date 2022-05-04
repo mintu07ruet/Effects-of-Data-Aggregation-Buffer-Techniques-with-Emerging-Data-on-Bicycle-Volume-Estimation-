@@ -28,3 +28,12 @@ To install requirements: It is best to create an Anaconda environment and execut
 pip install -r requirements.txt
 ```
 The data is available in 'data/'
+
+## Project Structure
+This project is split into multiple python and R programming file:
+# 'Network Buffer Creation Code/' folder provides automatic python scripts that will create the network buffer for each count station.
+#'Data Extraction Code' folder provides the whole complete python scripts for six regions (Portland, Eugene, Bend, Dallas, Chalotte and Boulder)to extract the data. Air(Eucilidian) and Network buffer have separate python scripts. We have total 12 python scripts to extract the data, 2 scripts for each region. 
+# 'Variable Selection Code/' provides the python scripts that were used to reduce the list of variables for each modeling based on correlation and VIF
+# The Poisson Regression 10 folds-5 repeats model was run using R programming. All of the modeling code is available in folder 'Modelling R Code/'
+# Finally, the Author applied Portland best buffer model network-wide using 0.1 mile air buffer. The application data generation code is available in 'Application code/' folder
+
