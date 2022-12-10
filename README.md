@@ -5,19 +5,32 @@
 #Stephen P Mattingly2, 
 #Kate Kyung Hyun3, 
 #Joseph Broach4
+#Nathan McNeil5,
+#Sirisha Kothuri6
 
-1 Doctoral Research Assistant, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Corresponding Email: mdmintu.miah@mavs.uta.edu, ORCID: 0000-0001-6073-3896
+1* Post-Doctoral Researcher at SafeTREC and PATH, University of California, Berkeley, Berkeley 94720, USA, Corresponding Email: mmmiah@berkeley.edu, ORCID: https://orcid.org/0000-0001-6073-3896
 
-2 Professor, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Email: mattingly@uta.edu, ORCID: 0000-0001-6515-6813
+2 Professor, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Email: mattingly@uta.edu, ORCID: https://orcid.org/0000-0001-6515-6813
 
-3 Assistant Professor, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Email: kate.hyun@uta.edu, ORCID: ORCID: 0000-0001-7432-8058
+3 Associate Professor, Department of Civil Engineering, the University of Texas at Arlington, TX 76019, USA, Email: kate.hyun@uta.edu, ORCID: ORCID: https://orcid.org/0000-0001-7432-8058
 
-4 Adjunct Research Associate, Toulan School of Urban Studies and Planning, Portland State Univ., Portland, OR 97201. Email: jbroach@pdx.edu , ORCID: https://orcid.org/0000-0001-7753-501X. 
+4 Adjunct Research Associate,  Transportation Research and Education Center (TREC), Portland State Univ., Portland, OR 97201. Email: jbroach@pdx.edu, ORCID: https://orcid.org/0000-0001-7753-501X. 
+
+5 Research Associate,  Transportation Research and Education Center (TREC), Portland State University, Portland, OR – 97201, Email: nmcneil@pdx.edu, ORCID: https://orcid.org/0000-0002-0490-9794
+6 Senior Research Associate, Department of Civil and Environmental Engineering, Portland State University, Portland, OR – 97201, Email: skothuri@pdx.edu, ORCID: https://orcid.org/0000-0002-2952-169X
+## Highlights:
+•	The selection of buffer types and sizes impacted AADBT Estimation.
+•	Data extraction and standardization were made over several geographies with automatic python programming and OSM, respectively
+•	Buffer types and sizes proposed for generalized and city-specific models
+•	The combination of Network and Euclidean Buffer of multiple sizes yielded the best prediction of AADBT
+•	Network buffers outperformed Euclidean buffers
+
 
 ### Abstract
 
-One of the most common modeling forms to estimate Average Annual Daily Bicycle Traffic (AADBT) is a direct demand model (DDM) that uses demographic, network, and traffic as explanatory variables. The performance of the DDM is subject to variable preparation and collection methods and researchers commonly apply a buffer to aggregate and represent bicyclists and bicycle link characteristics. The majority of previous studies use a GIS tool to extract the variables at different buffer levels to identify the optimal buffer sizes and types that work best for their study area and count data. To overcome a time-consuming and labor-intensive effort on variable extraction, this study tests a wide range of variables using various buffer types (Euclidean (Air) and Network) and sizes and compares their modeling performances. This study uses emerging count data (Strava, StreetLight) with contextual variables to develop Poisson regression models where OpenStreetMap (OSM) data plays a key role in standardizing the network data collection. The model is developed for six different geographies (Portland, Eugene, Bend, Boulder, Charlotte, and Dallas) as city-specific models as well as a generalized model that integrates all the data from the six cities. The results indicate that 0.5 miles of Euclidean and network combined buffers perform best for the generalized model with a goodness of fit of 0.75 while Euclidean and network buffers have similar performance for 0.5-mile buffer sizes. The city-specific models indicate that local characteristics of the geography influence the buffer size and types. However, none of the cities requires more than a 0.5-mile buffer to obtain the best model. In particular, the Portland model works best with a 0.1-mile Euclidean buffer, Eugene for 0.1 miles Euclidean+Network; Dallas, Bend performs best with a 0.25-mile, 0.25-mile Euclidean buffer, while Boulder works with a 1-mile Network buffer. This research will help policymakers and modelers understand the sizes and types of buffers that need to be considered to extract the variables to construct a direct demand model for bicycle volume estimations.
-Keywords: Strava, StreetLight, Bicycle, Buffer, Euclidian, Network, AADBT, Direct Demand Model, 
+One of the most common modeling forms to estimate Average Annual Daily Bicycle Traffic (AADBT) is a direct demand model (DDM) that uses demographic, network, and indirect bicycle count as explanatory variables. The performance of the DDM is subject to variable preparation and collection methods, and researchers commonly apply a buffer to aggregate and represent characteristics around a given location. The majority of previous studies have used desktop GIS software tools to extract the variables at different buffer levels in order to identify optimal buffer sizes and types for their study area and count data. To overcome a time-consuming and labor-intensive effort for variable extraction, this study develops and tests a wide range of variables using various buffer types (Euclidean and Network) and sizes and compares their modeling performance. We use emerging user data sources (Strava, StreetLight) and contextual variables to develop Poisson regression models. OpenStreetMap (OSM) data plays a key role in standardizing network data collection. Models are developed for six different geographies (Portland, Eugene, Bend, Boulder, Charlotte, and Dallas) as city-specific models, and a generalized model that integrates all the data from the six cities. The results recommend that a generalized model with varying size of Euclidean+Network buffer can be developed by an agency examining several geographic areas with various land use and traffic characteristics in order to estimate more accurate AADBT. After using the Euclidean+Network all buffer size option, taking variables with varied Network buffer sizes will also produce the second-best estimation. Network density determines the types and sizes of buffers. A smaller Euclidean buffer size (0.1 miles) can be considered by an agency in a city with a larger household and population density, such as Portland, in order to capture the catchment features needed to model AADBT.  This research will help policymakers and modelers understand the sizes and types of buffers that need to be considered to extract the variables to construct a direct demand model for bicycle volume estimations.
+# Keywords: Bicycle, Buffer, Euclidean, Network, AADBT, Direct Demand Model
+
 
 ### Graphical Abstract:
 ![image](https://user-images.githubusercontent.com/60245323/166619115-ee0a5efd-570a-40ed-9645-35c39a72ddd5.png)
